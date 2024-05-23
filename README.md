@@ -1,97 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        h1 {
-            margin: 0;
-        }
-        .faq-list {
-            padding: 0;
-            list-style: none;
-        }
-        .faq-list li {
-            background: #fff;
-            margin-bottom: 5px;
-            border: 1px solid #ddd;
-        }
-        .faq-list a {
-            display: block;
-            padding: 10px;
-            text-decoration: none;
-            color: #333;
-            font-size: 20px;
-        }
-        .faq-list a:hover {
-            background: #efefef;
-        }
-        .answer {
-            display: none;
-            padding: 10px;
-            background: #fff;
-            border: 1px solid #ddd;
-            margin-bottom: 5px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>FAQ</h1>
-    </header>
-    <div class="container">
-        <ul class="faq-list">
-            <li>
-                <a href="#" onclick="toggleAnswer(this)">What is QuantumultX?</a>
-                <div class="answer">
-                    QuantumultX is a powerful proxy client that supports various protocols and can capture and redirect TCP traffic.
-                </div>
-            </li>
-            <li>
-                <a href="#" onclick="toggleAnswer(this)">How do I install QuantumultX?</a>
-                <div class="answer">
-                    You can install QuantumultX from the official App Store. Follow the instructions provided during the installation process.
-                </div>
-            </li>
-            <li>
-                <a href="#" onclick="toggleAnswer(this)">Where can I find more configuration for QuantumultX?</a>
-                <div class="answer">
-                    Visit our GitHub repository for a variety of configurations and scripts shared by the community.
-                </div>
-            </li>
-            <!-- Add more FAQ items here -->
-        </ul>
-    </div>
+# FAQ
 
-    <script>
-        function toggleAnswer(element) {
-            var answer = element.nextElementSibling;
-            // Toggle the visibility of the answer
-            if (answer.style.display === 'block') {
-                answer.style.display = 'none';
-            } else {
-                answer.style.display = 'block';
-            }
-        }
-    </script>
-</body>
-</html>
+## 什么是 QuantumultX？
+
+<details>
+<summary>点击查看答案</summary>
+
+QuantumultX 是一个强大的代理客户端，支持 Shadowsocks、HTTP、SOCKS5 等多种协议。它能够捕获所有的 TCP 流量，并通过 Filter 功能按照您自己的方式进行重定向。
+</details>
+
+## 如何安装 QuantumultX？
+
+<details>
+<summary>点击查看答案</summary>
+
+您可以从官方 App Store 安装 QuantumultX。请按照安装过程中提供的说明进行操作。
+</details>
+
+## 我在哪里可以找到更多 QuantumultX 的配置？
+
+<details>
+<summary>点击查看答案</summary>
+
+请访问我们的 GitHub 仓库，那里有社区成员分享的各种配置和脚本。
+</details>
+
+<!-- 在此处添加更多问题和答案 -->
