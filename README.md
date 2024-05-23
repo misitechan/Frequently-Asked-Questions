@@ -41,7 +41,7 @@ BoxJs的安装及订阅教程请参考 [@limboprossr](https://t.me/limboprossr) 
 
 如果您需要技术支持，可以通过以下方式联系我们：
 - GitHub Issues: [提交问题](https://github.com/misitechan/-QuantumultX-/issues/new)
-- 电子邮件: [您的电子邮件地址](mailto:your-email@example.com)
+- 电子邮件: [您的电子邮件地址](chenjunf1147262614@gmail.com)
 </details>
 
 ## 如何贡献代码或改进？
@@ -65,7 +65,7 @@ BoxJs的安装及订阅教程请参考 [@limboprossr](https://t.me/limboprossr) 
 <details>
 <summary>点击查看答案</summary>
 
-安全是重中之重。如果您发现了安全漏洞，请通过我们的 [安全政策](https://github.com/misitechan/-QuantumultX-/security/policy) 报告，或者直接发送电子邮件到 [安全团队的邮箱](mailto:security@example.com)。
+安全是重中之重。如果您发现了安全漏洞，请通过我们的 [安全政策](https://github.com/misitechan/-QuantumultX-/security/policy) 报告，或者直接发送电子邮件到 [安全团队的邮箱](chenjunf1147262614@gmail.com)。
 </details>
 
 ## 我在哪里可以找到更多关于QuantumultX的教程和指南？
